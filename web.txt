@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pendidikan</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portal Pendidikan</h1>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#courses">Kursus</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="home">
+            <h2>Selamat Datang di Portal Pendidikan</h2>
+            <p>Portal ini menyediakan berbagai sumber belajar untuk membantu siswa dan guru dalam proses pembelajaran.</p>
+        </section>
+
+        <section id="about">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah organisasi yang berkomitmen untuk meningkatkan kualitas pendidikan dengan menyediakan materi dan kursus yang berkualitas.</p>
+        </section>
+
+        <section id="courses">
+            <h2>Kursus Kami</h2>
+            <ul>
+                <li>Kursus Matematika Dasar</li>
+                <li>Pendidikan Karakter</li>
+                <li>Kursus Bahasa Inggris</li>
+                <li>Kursus Ilmu Pengetahuan Alam</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <p>Email: info@portalpendidikan.com</p>
+            <p>Telepon: (021) 123-4567</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Portal Pendidikan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
